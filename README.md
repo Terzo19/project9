@@ -26,11 +26,10 @@ After finding all the invalid credit card numbers, it’s also necessary to iden
 Create a function, idInvalidCardCompanies() that has one parameter for a nested array of invalid numbers and returns an array of companies.
 
   Currently, there 4 accepted companies which each have unique first digits. The following table shows which digit is unique to which company:
-  First Digit 	Company
-  3 	          Amex (American Express)
-  4 	          Visa 
-  5 	          Mastercard
-  6 	          Discover
+  3 	    -      Amex (American Express)
+  4 	    -     Visa 
+  5 	    -     Mastercard
+  6 	    -     Discover
 
   If the number doesn’t start with any of the numbers listed, print out a message like: “Company not found”.
 
